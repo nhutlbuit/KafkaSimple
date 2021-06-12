@@ -42,13 +42,10 @@ public class SimpleConsumer {
 
 /*
 
- after brew install kafka
+after brew install kafka
 
- run 2 configs
-
-
+run 2 configs: zookeeper and kafka server
 $ zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
-
 $ kafka-server-start /usr/local/etc/kafka/server.properties
 
 Run SimpleConsumer to listen
